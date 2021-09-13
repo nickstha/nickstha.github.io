@@ -1,0 +1,33 @@
+
+body{
+	font-family: "Audiowide", sans-serif;
+}
+
+.center{
+	text-align: center;
+}
+
+h1{
+	font-size: 30px;
+	font-family:  Sofia;
+	text-align: center;
+	color: Brown;
+}
+h3{
+	font-size: 20px;
+	text-align: center;
+	color: #3498DB;
+}
+
+
+h4{
+	font-size: 35px;
+	text-align: center;
+	font-weight: 200;
+	color: #BA4A00;
+}
+
+.border{
+	border-style: solid;
+	border-color:  #287EC7;
+}
