@@ -1,7 +1,7 @@
 
 body{
-	font-family: "Gluten", sans-serif;
-	width:  800px;
+	font-family: "Comfortaa", sans-serif;
+	width:  900px;
 	margin:  0 auto;
 }
 
@@ -11,7 +11,7 @@ body{
 
 h1{
 	font-size: 30px;
-	font-family:  Audiowide;
+	font-family:  Lobster;
 	text-align: center;
 	color: Brown;
 }
@@ -23,7 +23,7 @@ h3{
 
 
 h4{
-	font-family:  Audiowide;
+	font-family:  Lobster;
 	font-size: 35px;
 	text-align: center;
 	font-weight: 200;
@@ -42,7 +42,7 @@ hr {
 .img
 {
 	/*--Padding: 5px; --*/
-	text-align: center;
+	float: left;
 	box-shadow: 10px 10px 7px  #888;
 
 }
@@ -51,6 +51,27 @@ hr {
 	border-style: solid;
 	border-color:  #287EC7;
 	margin-top:10px;
+	padding: 10px;
 	box-shadow: 10px 10px 7px  #888;
 }
+.container{
+	display: flex;
+}
+
+.item1{
+
+	float: left;
+	height:  100px;
+	margin: 0 1.5%px;
+	width:  60%;
+}
+
+.item2{
+	
+	float: right;
+	height:  100px;
+	margin: 0 1.5%px;
+	width:  60%;
+}
+
 
