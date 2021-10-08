@@ -94,7 +94,8 @@ img{box-shadow: 10px 10px 7px  #888;
 	margin: 20px;
 	float: left;
 	background-color: #D0EAFF;
-
-
+}
+button {
+	margin: 10px;
 }
 a:hover{background-color: red;}
