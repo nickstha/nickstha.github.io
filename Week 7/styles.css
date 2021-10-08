@@ -1,0 +1,100 @@
+body {
+	font-family: "Comfortaa", sans-serif;
+	margin: 0 auto;
+	background-color: ghostwhite;
+	width:  1100px;
+
+
+}
+
+#header{
+	margin: 20px;
+}
+
+h1{
+	text-shadow: 5px 10px 20px gray;
+	font-size: 55px;
+	font-family:  Monoton;
+	text-align: center;
+	color: brown;
+	word-spacing: 20px;
+}
+
+h2{
+	text-shadow: 5px 10px 20px lightgray;
+	font-size: 40px;
+	font-family:  Coustard;
+	text-align: center;
+	color: burlywood;
+}
+h3{
+	font-size: 30px;
+	font-family:  Coustard;
+	color: brown;
+	text-align: center;
+}
+h4{
+
+	font-size: 30px;
+	font-family:  Coustard;
+	text-align: center;
+	color: brown;
+}
+ul li{list-style-type: none;padding-top: 5px;padding-bottom: 5px;border-bottom: 1px solid;border-color: #3E2F5B;}
+ul li:last-child{border-bottom: none;}
+ol li {
+	margin: 10px 0;
+}
+
+#image {
+    text-align: right;
+    float: left;
+    width: 30%;
+
+}
+img{box-shadow: 10px 10px 7px  #888;
+
+}
+#top{
+	display:  flex;
+	padding-bottom: 30px;
+}
+#Prep{
+
+	width: 65%;
+	margin-top: 70px;
+	float: left;
+	text-align:  center;
+	color: purple;
+	font-size: 20px;
+}
+
+#container{
+	display:  flex;
+	padding-bottom: 30px;
+}
+
+#equipment{
+	padding: 10px;
+	margin: 20px;
+	
+	float: left;
+
+}
+#ingredients{
+	padding: 10px;
+	margin: 20px;
+	width: 420px;
+
+	float: left;
+
+}
+#directions{x
+	padding: 10px;
+	margin: 20px;
+	float: left;
+	background-color: burlywood;
+
+
+}
+a:hover{background-color: red;}
