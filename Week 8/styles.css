@@ -1,0 +1,131 @@
+p,body {
+	font-family: "Comfortaa", sans-serif;
+}
+
+#header{
+	margin: 20px;
+}
+#main{
+	width:90%;
+	margin:auto;}
+h1{
+	text-shadow: 5px 15px 35px gray;
+	font-size: 55px;
+	font-family:  Monoton;
+	text-align: center;
+	color: brown;
+	word-spacing: 20px;
+}
+
+h2{
+	text-shadow: 5px 10px 20px lightgray;
+	font-size: 40px;
+	font-family:  Coustard;
+	text-align: center;
+	color: Purple;
+}
+h3{
+	font-size: 30px;
+	font-family:  Coustard;
+	color: brown;
+	text-align: center;
+}
+h4{
+
+	font-size: 30px;
+	font-family:  Coustard;
+	text-align: center;
+	color: brown;
+}
+a:hover{background-color: purple; clolr: burlywood;}
+
+ul li{list-style-type: none;padding-top: 5px;padding-bottom: 5px;border-bottom: 1px solid;border-color: #3E2F5B;}
+ul li:last-child{border-bottom: none;}
+ol li {
+	margin: 10px 0;
+}
+
+#image {
+    text-align: center;
+    float: left;
+    width: 30%;
+
+}
+img{box-shadow: 10px 10px 7px  #888;
+
+}
+.lead{transition: color 2s}
+.lead:hover{color: brown;}
+
+
+#top{
+	display:  block;
+	padding-bottom: 30px;
+}
+#Prep{
+	display:  block;
+	width: 65%;
+	margin-top: 100px;
+	float: left;
+	text-align:  center;
+	color: purple;
+	font-size: 20px;
+}
+
+#container{
+	display:  block;
+	
+}
+
+#equipment{
+	display:  block;
+	padding: 10px;
+	margin: 20px;
+	
+	float: left;
+
+}
+#ingredients{
+	display:  block;
+	padding: 10px;
+	margin: 20px;
+	width: 420px;
+
+	float: left;
+
+}
+#directions{
+	display:  block;
+	padding: 10px;
+	margin: 20px;
+	float: left;
+	background-color: #D0EAFF;
+}
+button {
+	margin: 20px;
+	background-color: brown;
+	color: white;
+}
+.row{
+	width:100%;
+	 clear:both; 
+	 display:block;
+	 background-color:#FFF5EB;
+	  overflow:auto;
+	}
+
+@media only screen and (max-width: 1200px){
+	#main{width:90%;}
+	#directions{width:90%;display:block;padding:2%;}
+	#ingredients{width:90%;display:block;padding:2%;}
+	#equipment{width: 90%;display: block;padding: 2%;}
+	header {display:block;position: absolute;top:0;left:0; width:100%;text-align:center;z-index: 2;}
+	}
+
+
+/*mobile*/
+@media only screen and (max-width: 500px){
+	#image {display:block;width: 100%;}
+	#main{width:75%;}
+}
+
